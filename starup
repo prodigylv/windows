@@ -6,5 +6,4 @@ Enable: true
 Configure TMP Startup key: -> Require startup key TMP
 
 
-
-manage-bde -protectors -add c: -TPM
+manage-bde -changepin c:
