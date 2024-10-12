@@ -1,5 +1,10 @@
 gpedit.msc
-Administrative Templates > Windows Components > BitLocker Drive Encryption > Operating System Drives in the Group Policy window.
+Administrative Templates > Windows Components > BitLocker Drive Encryption > Operating System Drives > Require additinal authentication at startup
+
+Enable: true
+
+Configure TMP Startup key: -> Require startup key TMP
+
 
 
 manage-bde -changepin c:
